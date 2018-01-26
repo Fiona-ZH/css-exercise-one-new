@@ -6,8 +6,9 @@ body {
 /*Style for heading*/
 nav {
   background-color: #ff0;
-  height: 100px;
-  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  top: 0px;
   position: fixed;
   width: 100%;
 }
@@ -25,7 +26,6 @@ section {
 }
 
 .example, h3 {
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -35,7 +35,8 @@ h3 {
 
 .element {
   background-color: #0f0;
-  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   margin: 10px 0;
   width: 100%;
 }
